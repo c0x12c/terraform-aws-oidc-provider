@@ -2,13 +2,14 @@
 
 Creates an IAM identity provider for Custom OIDC.
 
-Generalized from [(Jenkins OIDC)](../jenkins-oidc) and [(GitHub OIDC)](../github-oidc) modules.
+Generalized from Jenkins OIDC and GitHub OIDC modules.
 
 ## Usage
 
 ```hcl
 module "provider" {
-  source    = "github.com/spartan-stratos/terraform-modules//aws/oidc/provider?ref=v0.1.21"
+  source    = "c0x12c/oidc-provider/aws"
+  version   = "1.0.0"
 
   url                    = "https://token.actions.githubusercontent.com"
   client_id_list         = ["sts.amazonaws.com"]
