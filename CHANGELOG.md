@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.1]() (2025-07-10)
+
+### Changes
+* Update example usage in README to reflect the new module name.
+
 ## [1.0.0]() (2025-06-24)
 
 ### BREAKING CHANGES
