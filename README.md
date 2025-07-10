@@ -9,7 +9,7 @@ Generalized from Jenkins OIDC and GitHub OIDC modules.
 ```hcl
 module "provider" {
   source    = "c0x12c/oidc-provider/aws"
-  version   = "1.0.0"
+  version   = "1.0.1"
 
   url                    = "https://token.actions.githubusercontent.com"
   client_id_list         = ["sts.amazonaws.com"]
